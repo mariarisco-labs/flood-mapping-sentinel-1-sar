@@ -31,19 +31,18 @@ Dataset structure: **1061 images** with **6 bands** (`.tif`) + **1061 binary mas
 
 ![Workflow2](https://github.com/mariarisco/ML_SAR_floods/blob/main/src/img/Workflow2.png)
 
-## Reproducibility (quickstart)
+# Reproducibility (quickstart)
 
-1) Create the conda environment:
+1) Create and activate the conda environment:
 
 ```bash
 conda env create -f environment.yml
-
-2) Activate the conda environment:
 conda activate gpu_env
 
-3) Open the final notebooks:
+2) Open the final notebooks:
 - src/results_notebook/Floods_model_Bagging&Boosting.ipynb
 - src/results_notebook/Floods_model_MLP.ipynb
+```bash
 
 # Repo structure
 
