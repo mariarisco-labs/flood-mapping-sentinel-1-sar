@@ -42,7 +42,7 @@ conda activate gpu_env
 2) Open the final notebooks:
 - src/results_notebook/Floods_model_Bagging&Boosting.ipynb
 - src/results_notebook/Floods_model_MLP.ipynb
-```bash
+```
 
 # Repo structure
 
