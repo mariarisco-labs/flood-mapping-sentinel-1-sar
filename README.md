@@ -44,18 +44,40 @@ conda activate gpu_env
 - src/results_notebook/Floods_model_Bagging&Boosting.ipynb
 - src/results_notebook/Floods_model_MLP.ipynb
 
+# Final notebooks
+
+The definitive results and model development are documented in:
+
+- `src/results_notebook/Floods_model_Bagging&Boosting.ipynb`
+- `src/results_notebook/Floods_model_MLP.ipynb`
+
+# Data
+
+This repository includes a lightweight sample under `src/data_sample/`.
+
+To reproduce results with the full dataset:
+1. Download the data from [IEEE DataPort](https://ieee-dataport.org/competitions/2024-ieee-grss-data-fusion-contest-flood-rapid-mapping)
+2. Place it locally under `src/data/` (recommended)
+3. Keep `src/data/` out of git (via `.gitignore`)
+
+# Results (v1)
+
+- Two modelling approaches are provided: **Bagging/Boosting** and an **MLP** baseline.
+- Workflows cover multi-source feature stacking, model training, and pixel-wise flood mask prediction.
+- Figures (workflow, dataset structure, and outputs) are stored under `src/img/`.
 
 # Repo structure
 
-```bash
-ML_SAR_floods/
-│── src/                    # Main source code directory
-│   │── data/               # Contains a sample of the images datasets for training and testing
-│   │── models/             # Stores machine learning / deep learning models
-│   │── notebooks/          # Draft notebooks
-│   │── result_notebooks/   # Final notebooks for model development (Machine Learning and MLP models)
-│   │── utils/              # Utility scripts for shared functionality
-│── .gitignore              # Specifies files and folders to be ignored by Git
-│── environment.yml         # Conda environment file with dependencies
-│── README.md               # Project documentation and setup instructions
+```text
+flood-mapping-sentinel-1-sar/
+├── src/
+│   ├── data_sample/         # sample data (lightweight)
+│   ├── img/                 # figures (workflow, structure, results)
+│   ├── models/              # trained models
+│   ├── notebooks/           # draft notebooks
+│   ├── results_notebook/    # final notebooks (Bagging/Boosting + MLP)
+│   └── utils/               # utility scripts
+├── .gitignore
+├── environment.yml
+└── README.md             # Project documentation and setup instructions
 ```
