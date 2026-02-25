@@ -38,11 +38,12 @@ Dataset structure: **1061 images** with **6 bands** (`.tif`) + **1061 binary mas
 ```bash
 conda env create -f environment.yml
 conda activate gpu_env
+```
 
 2) Open the final notebooks:
 - src/results_notebook/Floods_model_Bagging&Boosting.ipynb
 - src/results_notebook/Floods_model_MLP.ipynb
-```
+
 
 # Repo structure
 
