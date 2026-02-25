@@ -27,9 +27,8 @@ Dataset structure: **1061 images** with **6 bands** (`.tif`) + **1061 binary mas
 
 # Technical solution (workflows)
 
-![Workflow1](https://github.com/mariarisco/ML_SAR_floods/blob/main/src/img/Workflow1.png)
-
-![Workflow2](https://github.com/mariarisco/ML_SAR_floods/blob/main/src/img/Workflow2.png)
+![Workflow 1](src/img/Workflow1.png)
+![Workflow 2](src/img/Workflow2.png)
 
 # Reproducibility (quickstart)
 
